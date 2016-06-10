@@ -1,0 +1,25 @@
+.drag{
+	/*display: inline-block;*/
+	border:1px black solid;
+	height: 100px;
+	width: 100px;	
+	padding:0px;
+	margin:0px;
+	background-color: red;
+}
+
+.packery-drop-placeholder {
+  outline: 3px dashed #444;
+  outline-offset: -6px;
+  /* transition position changing */
+  -webkit-transition: -webkit-transform 0.2s;
+          transition: transform 0.2s;
+}
+
+
+.is-dragging,
+/* Packery adds class while transitioning to drop position */
+.is-positioning-post-drag {
+  background: #C90;
+  z-index: 2; /* keep dragged item on top */
+}

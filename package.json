@@ -1,0 +1,20 @@
+{
+  "name": "sockets",
+  "version": "1.0.0",
+  "description": "no express socket",
+  "main": "socketServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "formidable": "^1.0.17",
+    "jimp": "^0.2.24",
+    "mime": "^1.3.4",
+    "nodeproxy": "^1.0.0",
+    "socket.io": "^1.4.6"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
